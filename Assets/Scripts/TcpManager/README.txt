@@ -1,0 +1,4 @@
+空のGameObjectを作成し、TcpManager内にあるTcpReciverとTcpSenderをそれぞれアタッチする
+（TcpSenderが送信部、TcpReceiverが受信部）
+DataManagerも同様に作り、必要に応じてclassのjsonデータを変え、必要な値を入れてSenderにGameObjectごとアタッチする
+ReceiverのスクリプトファイルのReceiveEventに受信したdataに対する処理を書く
